@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mWuE41EJkTdY5knUuTDI3UStGGqfXDFwff5cqg/yHY4VTjsw+sRy3Obm2ekoeq9yIuJ5G5gbkpcxNszWaMmUlQ==",
+  "dgSpecHash": "KZEk7QMxppSo10/dtne3g813zJP5RvJ5Rcgnn0FjQnxRO0lQYvAiKF9fxHwSD7kN8NNj9hKY18d54meCRKCWsg==",
   "success": true,
-  "projectFilePath": "/Users/ivan/Desktop/Новая папка/Test/Test.csproj",
+  "projectFilePath": "/Users/ivan/Desktop/test_gb/Test/Test.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

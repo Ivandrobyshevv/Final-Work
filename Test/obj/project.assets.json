@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ivan/Desktop/Новая папка/Test/Test.csproj",
+      "projectUniqueName": "/Users/ivan/Desktop/test_gb/Test/Test.csproj",
       "projectName": "Test",
-      "projectPath": "/Users/ivan/Desktop/Новая папка/Test/Test.csproj",
+      "projectPath": "/Users/ivan/Desktop/test_gb/Test/Test.csproj",
       "packagesPath": "/Users/ivan/.nuget/packages/",
-      "outputPath": "/Users/ivan/Desktop/Новая папка/Test/obj/",
+      "outputPath": "/Users/ivan/Desktop/test_gb/Test/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ivan/.nuget/NuGet/NuGet.Config"
