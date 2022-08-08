@@ -3,41 +3,50 @@
     class Program
     {
         static void Main(string[] args)
-        {   
-            Console.WriteLine("Введите размерность массива:");
-            int n = Convert.ToInt32(Console.ReadLine());
-            string [] arrayText = new string [n];
-            InitArray(arrayText);
+        {   string stop = null;
+            while (true)
+            {   Console.Clear();
+                Console.WriteLine("Введите размерность массива:");
+                int n = Convert.ToInt32(Console.ReadLine());
+                string [] arrayText = new string [n];
+                InitArray(arrayText);
+                Console.WriteLine("\nПовторить операциб y|n :");
+                stop = Console.ReadLine();
+                if (stop == "n")
+                {
+                    break;
+                }
+                
+            }
+            
             
             
             
         }
         static void InitArray(string [] arrayText)
         {
-            Console.WriteLine("Введите значения через запятую");
+            Console.WriteLine("Введите значения через запятую:");
             arrayText = Console.ReadLine().Split(',');
             PritArray(arrayText);
             PrintElem(arrayText);            
             
         }
         
-        private static void PrintElem(string[] arrayText)
+        static void PrintElem(string[] arrayText)
         {
              for (int i = 0; i < arrayText.Length; i++)
             {
                 int n = arrayText[i].Length;
                 if (n < 3)
                 {
-                    Console.Write($"[{arrayText[i]}]");
+                    Console.Write("{0}", arrayText[i] + ",");
                 }
             }            
         }
-        private static void PritArray(string [] arrayText)
+        static void PritArray(string [] arrayText)
         {
-             for (int i = 0; i < arrayText.Length; i++)
-            {
-                Console.Write(arrayText[i]+ " ");
-            }
+            
+            Console.Write("[{0}]", string.Join(",", arrayText));
             Console.Write(" -> ");           
         }
         
