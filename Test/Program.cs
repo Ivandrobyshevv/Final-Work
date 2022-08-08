@@ -3,7 +3,8 @@
     class Program
     {
         static void Main(string[] args)
-        {   string stop = null;
+        {   // Цикл повторения и создание массива
+            string stop = null;
             while (true)
             {   Console.Clear();
                 Console.WriteLine("Введите размерность массива:");
@@ -21,16 +22,17 @@
                  
         }
         static void InitArray(string [] arrayText)
-        {
-            Console.WriteLine("Введите значения через запятую:");
+        {   
+            Console.WriteLine("Введите значения через запятую:"); 
             arrayText = Console.ReadLine().Split(',');
+            // Заполнениe массива
             PritArray(arrayText);
             PrintElem(arrayText);            
             
         }
         
         static void PrintElem(string[] arrayText)
-        {
+        {   // Сортировка массива и вывод элиментов
              for (int i = 0; i < arrayText.Length; i++)
             {
                 int n = arrayText[i].Length;
@@ -41,7 +43,7 @@
             }            
         }
         static void PritArray(string [] arrayText)
-        {
+        {   // Вывод основго массива
             
             Console.Write("[{0}]", string.Join(",", arrayText));
             Console.Write(" -> ");           
