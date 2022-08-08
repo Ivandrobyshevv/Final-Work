@@ -18,10 +18,7 @@
                 }
                 
             }
-            
-            
-            
-            
+                 
         }
         static void InitArray(string [] arrayText)
         {
